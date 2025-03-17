@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ### Project Structure
 📁 twilio-call-transcription
 
- ┣ 📜 main.py
+ ┣ 📜 main.py file, whatever name you have for your file
  
  ┣ 📜 .env
  
