@@ -4,7 +4,7 @@
 This project demonstrates a Python-based implementation for:
 - Making an outbound call using Twilio.
 - Recording the conversation.
-- Transcribing the audio using OpenAI Whisper.
+- Transcribing the audio using OpenAI Whisper and vosk model.  Note: if you want to use vosk mode, you will have to download it first "vosk-model-small-en-us-0.15".
 - Summarizing the transcription using Google Gemini AI.
 
 ## 🛠 Features
@@ -45,8 +45,13 @@ pip install -r requirements.txt
 
 ### Project Structure
 📁 twilio-call-transcription
+
  ┣ 📜 main.py
+ 
  ┣ 📜 .env
+ 
  ┣ 📜 requirements.txt
+ 
  ┣ 📜 README.md
+ 
  ┗ 📜 summary.json
